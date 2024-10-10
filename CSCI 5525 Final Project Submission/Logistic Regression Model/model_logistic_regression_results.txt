@@ -1,0 +1,21 @@
+Accuracy: 0.2490234375
+Confusion Matrix:
+ [[108  44  54  78  64  16]
+ [ 61  73  31  77  83   6]
+ [ 88  37  61  83  81  10]
+ [ 86  61  53 127 113  10]
+ [ 75  58  43 112 110   7]
+ [ 28  17  16  31  15  31]]
+Classification Report:
+               precision    recall  f1-score   support
+
+       FALSE       0.24      0.30      0.27       364
+        TRUE       0.25      0.22      0.24       331
+ barely-true       0.24      0.17      0.20       360
+   half-true       0.25      0.28      0.27       450
+ mostly-true       0.24      0.27      0.25       405
+  pants-fire       0.39      0.22      0.28       138
+
+    accuracy                           0.25      2048
+   macro avg       0.27      0.24      0.25      2048
+weighted avg       0.25      0.25      0.25      2048
